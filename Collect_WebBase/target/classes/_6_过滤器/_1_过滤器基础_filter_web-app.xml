@@ -1,0 +1,20 @@
+<!-- <servlet>
+	<servlet-name>_5_2_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._2_Servlet的web工程</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_2_servlet</servlet-name>
+	<url-pattern>/_5_2_Servlet</url-pattern>
+</servle> -->
+
+<filter>
+	<filter-name>_6_1_Filter</filter-name>
+	<filter-class>_6_过滤器._1_过滤器基础_filter</filter-class>
+</filter>
+<filter-mapping>
+	<filter-name>_6_1_Filter</filter-name>
+	<url-pattern>/*</url-pattern>
+	<url-pattern>/index.jsp</url-pattern>
+	<servlet-name>_5_2_servlet</servlet-name>
+	<dispatcher>REQUEST</dispatcher>
+</filter-mapping>

@@ -1,0 +1,60 @@
+
+<!DOCTYPE web-app [
+    <!ENTITY Servlet_5_2 SYSTEM "classpath:_5_servlet编程/_2_Servlet的web工程_web-app.xml">
+    <!ENTITY Servlet_5_3 SYSTEM "classpath:_5_servlet编程/_3_Servlet生命周期_web-app.xml">
+    <!ENTITY Servlet_5_4 SYSTEM "classpath:_5_servlet编程/_4_HttpServetRequest对象_web-app.xml">
+    <!ENTITY Servlet_5_5 SYSTEM "classpath:_5_servlet编程/_5_HttpServletResponse对象_web-app.xml">
+    <!ENTITY Servlet_5_6 SYSTEM "classpath:_5_servlet编程/_6_ServletConfig对象_web-app.xml">
+    <!ENTITY Servlet_5_7 SYSTEM "classpath:_5_servlet编程/_7_ServletContext对象_web-app.xml">
+    <!ENTITY Servlet_5_8 SYSTEM "classpath:_5_servlet编程/_8_Cookie对象_web-app.xml">
+    <!ENTITY Servlet_5_9 SYSTEM "classpath:_5_servlet编程/_9_Session对象_web-app.xml">
+    <!ENTITY Filter_6_1 SYSTEM "classpath:_6_过滤器/_1_过滤器基础_filter_web-app.xml">
+    <!ENTITY Filter_6_2 SYSTEM "classpath:_6_过滤器/_2_获取过滤器初始化参数_web-app.xml">
+    <!ENTITY Listener_7_1 SYSTEM "classpath:_7_监听器/_1_Request监听_web-app.xml">
+    <!ENTITY Listener_7_2 SYSTEM "classpath:_7_监听器/_2_Session监听_web-app.xml">
+    <!ENTITY Listener_7_3 SYSTEM "classpath:_7_监听器/_3_ServletContext监听_web-app.xml">
+    <!ENTITY Listener_7_4 SYSTEM "classpath:_7_监听器/_4_Request属性监听_web-app.xml">
+    <!ENTITY Listener_7_5 SYSTEM "classpath:_7_监听器/_5_Session属性监听_web-app.xml">
+    <!ENTITY Listener_7_6 SYSTEM "classpath:_7_监听器/_6_ServletContext属性监听_web-app.xml">
+    <!ENTITY Listener_7_7 SYSTEM "classpath:_7_监听器/_7_Session绑定监听_web-app.xml">
+    <!ENTITY UploadServlet_8_1 SYSTEM "classpath:_8_文件上传下载/_1_文件上传servlet_web-app.xml">
+    <!ENTITY UploadServlet_8_2 SYSTEM "classpath:_8_文件上传下载/_2_改进文件上传servlet_web-app.xml">
+    <!ENTITY UploadServlet_8_3 SYSTEM "classpath:_8_文件上传下载/_3_处理文件上传与下载_web-app.xml">
+    <!ENTITY SpringMVC_14_1 SYSTEM "classpath:_a14_springMVC/_1_基本MVC配置/config/_1_基本MVC配置_web-app.xml">
+    <!ENTITY SpringMVC_14_2 SYSTEM "classpath:_a14_springMVC/_2_简单url映射/config/_2_简单url映射_web-app.xml">
+    <!ENTITY SpringMVC_14_3 SYSTEM "classpath:_a14_springMVC/_3_http适配器/config/_3_http适配器_web-app.xml">
+    <!ENTITY SpringMVC_14_4 SYSTEM "classpath:_a14_springMVC/_4_注解适配器映射器/config/_4_注解适配器映射器_web-app.xml">
+    <!ENTITY SpringMVC_14_5 SYSTEM "classpath:_a14_springMVC/_5_简化注解适配器映射器/config/_5_简化注解映射器适配器_web-app.xml">
+    <!ENTITY SpringMVC_14_6 SYSTEM "classpath:_a14_springMVC/_6_组件扫描/config/_6_组件扫描_web-app.xml">
+    <!ENTITY SpringMVC_14_7 SYSTEM "classpath:_a14_springMVC/_7_视图解析器前后缀/config/_7_视图解析器前后缀_web-app.xml">
+]>
+<web-app>
+	&Servlet_5_2;
+	&Servlet_5_3;
+	&Servlet_5_4;
+	&Servlet_5_5;
+	&Servlet_5_6;
+	&Servlet_5_7;
+	&Servlet_5_8;
+	&Servlet_5_9;
+	&Filter_6_1;
+	&Filter_6_2;
+	&Listener_7_1;
+	&Listener_7_2;
+	&Listener_7_3;
+	&Listener_7_4;
+	&Listener_7_5;
+	&Listener_7_6;
+	&Listener_7_7;
+	&UploadServlet_8_1;
+	&UploadServlet_8_2;
+	&UploadServlet_8_3;
+	&UploadServlet_8_3;
+	&SpringMVC_14_1;
+	&SpringMVC_14_2;
+	&SpringMVC_14_3;
+	&SpringMVC_14_4;
+	&SpringMVC_14_5;
+	&SpringMVC_14_6;
+	&SpringMVC_14_7;
+</web-app>

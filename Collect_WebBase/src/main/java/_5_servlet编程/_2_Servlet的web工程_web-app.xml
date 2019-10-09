@@ -1,0 +1,8 @@
+<servlet>
+	<servlet-name>_5_2_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._2_Servlet的web工程</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_2_servlet</servlet-name>
+	<url-pattern>/_5_2_Servlet</url-pattern>
+</servlet-mapping>

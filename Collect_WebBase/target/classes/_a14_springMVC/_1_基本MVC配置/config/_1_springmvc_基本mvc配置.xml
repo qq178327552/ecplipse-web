@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+<!-- 
+SpringMVC架构:
+  	请求->
+  	前段控制器处理请求(DispatcherServlet) ->
+  	调用处理器映射器将URL映射到处理器适配器 ->
+  	调用处理器适配器查看调用哪个Controller执行Handler ->
+  	调用Controller执行Handler,返回ModelAndView类 ->
+  	根据ModelAndView调用视图解析器,解析视图 ->
+  	跳转到视图进行视图渲染填充request域,从而返回请求
+ -->
+<!-- 配置handler -->
+<bean name="/queryItems.action" class="_1_基本MVC配置.controller.MyController"></bean>
+
+<!-- 适配器映射器 -->
+<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+
+<!-- 处理器适配器 和 Handler中url和类路径 -->
+<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"></bean>
+
+<!-- 视图解析器 -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"></bean>
+
+
+
+</beans>

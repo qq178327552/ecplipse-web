@@ -1,0 +1,11 @@
+<session-config>
+	<session-timeout>1</session-timeout>
+</session-config>
+<servlet>
+	<servlet-name>_5_9_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._9_Session对象</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_9_servlet</servlet-name>
+	<url-pattern>/_5_9_Servlet</url-pattern>
+</servlet-mapping>

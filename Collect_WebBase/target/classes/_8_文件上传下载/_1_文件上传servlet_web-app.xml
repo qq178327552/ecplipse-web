@@ -1,0 +1,8 @@
+<servlet>
+	<servlet-name>_8_1_UploadServlet</servlet-name>
+	<servlet-class>_8_文件上传下载._1_文件上传servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_8_1_UploadServlet</servlet-name>
+	<url-pattern>/_8_1_UploadServlet</url-pattern>
+</servlet-mapping>

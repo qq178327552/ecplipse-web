@@ -1,0 +1,8 @@
+<servlet>
+	<servlet-name>_5_5_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._5_HttpServletResponse对象</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_5_servlet</servlet-name>
+	<url-pattern>/_5_5_Servlet</url-pattern>
+</servlet-mapping>

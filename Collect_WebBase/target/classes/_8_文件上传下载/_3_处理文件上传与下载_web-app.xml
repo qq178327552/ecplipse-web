@@ -1,0 +1,8 @@
+<servlet>
+	<servlet-name>_8_3_UploadServlet</servlet-name>
+	<servlet-class>_8_文件上传下载._3_处理文件上传与下载</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_8_3_UploadServlet</servlet-name>
+	<url-pattern>/_8_3_UploadServlet</url-pattern>
+</servlet-mapping>

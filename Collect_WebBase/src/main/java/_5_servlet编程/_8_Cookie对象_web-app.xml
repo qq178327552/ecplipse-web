@@ -1,0 +1,8 @@
+<servlet>
+	<servlet-name>_5_8_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._8_Cookie对象</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_8_servlet</servlet-name>
+	<url-pattern>/_5_8_Servlet</url-pattern>
+</servlet-mapping>

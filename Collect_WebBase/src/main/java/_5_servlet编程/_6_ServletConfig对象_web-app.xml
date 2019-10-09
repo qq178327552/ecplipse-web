@@ -1,0 +1,12 @@
+<servlet>
+	<servlet-name>_5_6_servlet</servlet-name>
+	<servlet-class>_5_servlet编程._6_ServletConfig对象</servlet-class>
+	<init-param>
+		<param-name>path</param-name>
+		<param-value>E:/a.txt</param-value>
+	</init-param>
+</servlet>
+<servlet-mapping>
+	<servlet-name>_5_6_servlet</servlet-name>
+	<url-pattern>/_5_6_Servlet</url-pattern>
+</servlet-mapping>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<!-- 配置handler -->
+<bean name="/queryItems.action" class="_1_基本MVC配置.controller.MyController"></bean>
+
+<!-- 适配器映射器 -->
+<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+
+<!-- 处理器适配器 和 Handler中url和类路径 -->
+<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"></bean>
+
+<!-- 视图解析器,配置视图路径的前后缀 -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<property name="prefix" value="/_2_WebBase/src/main/java/_a14_springMVC/_7_视图解析器前后缀/view/jsp/"></property>
+	<property name="suffix" value=".jsp"></property>
+</bean>
+
+
+
+</beans>
